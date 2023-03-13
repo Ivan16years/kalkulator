@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+
+.wrapper {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc__display {
+    width: 100px;
+    padding: 3px;
+    border: 1px solid rgb(0, 8, 153);
+    cursor: pointer;
+    justify-content: space-around;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+}
+
+.key {
+    width: 100px;
+    padding: 3px;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.key-result {
+    width: 100px;
+    padding: 3px;
+    border: 1px solid rgb(110, 153, 0);
+    background-color: coral;
+    cursor: pointer;
+}
